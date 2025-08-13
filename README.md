@@ -2,7 +2,7 @@
 
 O projeto é uma aplicação Java com gerenciamento pelo Maven, que implementa um chatbot via API. A arquitetura do projeto baseia-se em um dos princípios do SOLID - a separação de responsabilidades - utilizando camadas de serviço, modelo e aplicação. A entrada da aplicação é gerenciada pela classe ChatbotApplication onde está concentrado todo o ciclo de interação com o usuário (I/O) e a instanciação manual das dependências. A lógica está encapsulada na classe GeminiChatService, com função de orquestrar toda a comunicação com a API do Google Gemini. O serviço utiliza o java.net.http.HttpClient (Java 11+) para requisições POST e o ObjectMapper do Jackson para a conversão de DTOs.
 
-No pacote model encontram-se os POJOS que servem como DTOs, e espelham o contrato JSON da API com a garanti do type-safety. Todas as configurações, como a chave da API, estão externalizadas em um arquivo .properties, carrega no início pela classe utilitária AppConfig com um bloco inicializador estático. O design obedece os princípios de SOLID facilitanto a manutençao e testes unitários da camada de serviço.
+No pacote model encontram-se os POJOS que servem como DTOs, e espelham o contrato JSON da API com a garantia do type-safety. Todas as configurações, como a chave da API, estão externalizadas em um arquivo .properties, carrega no início pela classe utilitária AppConfig com um bloco inicializador estático. O design obedece os princípios de SOLID facilitanto a manutençao e testes unitários da camada de serviço.
 
 
 
