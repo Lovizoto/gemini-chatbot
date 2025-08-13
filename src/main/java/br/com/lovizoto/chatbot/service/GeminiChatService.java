@@ -59,8 +59,7 @@ public class GeminiChatService {
 
             if (response.statusCode() == 200) {
                 log.debug("Resposta recebida do Gemini: {}", response.body());
-                // Aqui você deserializaria a resposta para GeminiResponse.java para um tratamento mais robusto.
-                // Por simplicidade, vamos extrair o texto diretamente com Jackson.
+
                 return Optional.ofNullable(
                         objectMapper.readTree(response.body())
                                 .path("candidates").get(0)
