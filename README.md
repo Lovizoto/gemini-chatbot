@@ -16,5 +16,5 @@ Em uma mesa de D&D cada membro tem habilidades específicas e funções na guild
 - O **DM** ou **Mestre** é aquele que narra a aventura e gerencia o fluxo da história representada pela classe _ChatbotApplication_.
 - O **Mago**, ou o _GeminiChatService_, é o personagem especialista que realizará os rituais para contatar a entidade "Gemini";
 - Cada pergaminho que o mago precisa utilizar para que sua magia funcione estão no _package_ _model_, lá está estão as palavras e os componentes arcanos;
-- No entanto, todo conhecimento antigo e as palavras necessárias para a conjuração da magia - ou como decifrar a magia - estão _application.properties_, o grimório que o mago carrega.
+- No entanto, todo conhecimento antigo e as palavras necessárias para a conjuração da magia - ou como decifrar a magia - estão em _application.properties_, o grimório que o mago carrega.
 - O _pom.xml_ é o Livro do Jogador que vai definir as leis, as magias presentes na campanha.
