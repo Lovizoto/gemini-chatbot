@@ -6,7 +6,13 @@ No pacote model encontram-se os POJOS que servem como DTOs, e espelham o contrat
 
 
 
-<p align="center-left"> <font size="12" color="#0A7373"><b>⚔️ Arquitetura do Código (Composição da Guila) </b></font> </p>
+<p align="center-left"> <font size="12" color="#0A7373"><b>⚔️ Arquitetura do Código (Composição da Guilda) </b></font> </p>
 
+Uma compreensão heterodoxa da arquitetura do projeto! 
 
-Em uma mesa de D&D cada membro tem habilidades específicas e funções na guilda, o que garante o sucesso nas aventuras
+Em uma mesa de D&D cada membro tem habilidades específicas e funções na guilda, o que garante o sucesso nas aventuras e nas batalhas pelo caminho. Assim para compreender o funcionamento da arquitetura é possível pensar da seguinte forma: 
+
+- O **Jogador** é o usuário que fará perguntas e respostas - ele é o que toma a ação na aventura, e no caso na aplicação.
+- O **DM** ou **Mestre** é aquele que narra a aventura e gerencia o fluxo da história representada pela classe _ChatbotApplication_.
+- O **Mago**, ou o _GeminiChatService_, é o personagem especialista que realizará os rituais para contatar a entidade "Gemini";
+- Cada pergaminho que o mago precisa utilizar para que sua magia funcione estão nos 
